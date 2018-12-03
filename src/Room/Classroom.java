@@ -5,7 +5,7 @@ import Player.Student;
 public class Classroom
 {
     Student Survivalist;
-    int xLoc, yLoc;
+    private int xLoc, yLoc;
 
     public Classroom(int x, int y)
     {
@@ -21,8 +21,8 @@ public class Classroom
         x.setyLoc(this.yLoc);
     }
 
-    public void leaveClassroom(Student x)
+    public void leaveSchool(Student x)
     {
-        Survivalist = null;
+        Survivalist =  null;
     }
 }
