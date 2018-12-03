@@ -5,7 +5,7 @@ import Player.Student;
 public class Closet
 {
     Student Survivalist;
-    int xLoc, yLoc;
+    private int xLoc, yLoc;
 
     public Closet(int x, int y)
     {
