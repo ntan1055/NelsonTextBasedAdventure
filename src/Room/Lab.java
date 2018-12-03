@@ -5,7 +5,7 @@ import Player.Student;
 public class Lab
 {
     Student Survivalist;
-    int xLoc, yLoc;
+    private int xLoc, yLoc;
 
     public Lab(int x, int y)
     {
@@ -15,13 +15,13 @@ public class Lab
 
     public void enterLab(Student x)
     {
-        System.out.println("The lab room seems perfectly tranquil. You can look around the room for supplies to survive.");
+        System.out.println("The lab room seems perfectly tranquil. There are objects that are perfect for survival.");
         Survivalist = x;
         x.setxLoc(this.xLoc);
         x.setyLoc(this.yLoc);
     }
 
-    public void leaveLab(Student x)
+    public void leaveSchool(Student x)
     {
         Survivalist = null;
     }
