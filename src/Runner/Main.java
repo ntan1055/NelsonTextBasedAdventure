@@ -5,12 +5,15 @@ import Room.Classroom;
 import Room.Closet;
 import Room.Hallway;
 import Room.Lab;
+import Room.emergencyExit;
+import Runner.Board;
 
 import java.util.Scanner;
 
 public class Main 
 {
-    private static boolean gameOn = true;
+    private static boolean
+            gameOn = true;
     
     public static void main(String[] args)
     {
